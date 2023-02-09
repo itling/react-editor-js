@@ -821,13 +821,34 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@react-editor-js/client@1.0.0, @react-editor-js/client@workspace:packages/@react-editor-js/client":
+"@paradeum/react-editor@workspace:.":
+  version: 0.0.0-use.local
+  resolution: "@paradeum/react-editor@workspace:."
+  dependencies:
+    "@release-it/conventional-changelog": ^3.3.0
+    "@rollup/plugin-node-resolve": ^13.0.6
+    "@types/jest": ^27.0.3
+    conventional-changelog-conventionalcommits: ^4.6.1
+    jest: ^27.4.5
+    prettier: ^2.4.1
+    release-it: ^14.11.6
+    release-it-yarn-workspaces: ^2.0.1
+    rollup: ^2.58.3
+    rollup-plugin-copy: ^3.4.0
+    rollup-plugin-typescript2: ^0.30.0
+    semver: ^7.3.5
+    ts-jest: ^27.1.2
+    typescript: ^4.3.5
+  languageName: unknown
+  linkType: soft
+
+"@react-editor-js/client@1.0.1, @react-editor-js/client@workspace:packages/@react-editor-js/client":
   version: 0.0.0-use.local
   resolution: "@react-editor-js/client@workspace:packages/@react-editor-js/client"
   dependencies:
     "@editorjs/editorjs": "*"
     "@editorjs/paragraph": "*"
-    "@react-editor-js/core": 1.0.0
+    "@react-editor-js/core": 1.0.1
     "@types/react": "*"
     react: "*"
     tslib: ^2.3.1
@@ -839,7 +860,7 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@react-editor-js/core@1.0.0, @react-editor-js/core@workspace:packages/@react-editor-js/core":
+"@react-editor-js/core@1.0.1, @react-editor-js/core@workspace:packages/@react-editor-js/core":
   version: 0.0.0-use.local
   resolution: "@react-editor-js/core@workspace:packages/@react-editor-js/core"
   dependencies:
@@ -857,13 +878,13 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@react-editor-js/server@1.0.0, @react-editor-js/server@workspace:packages/@react-editor-js/server":
+"@react-editor-js/server@1.0.1, @react-editor-js/server@workspace:packages/@react-editor-js/server":
   version: 0.0.0-use.local
   resolution: "@react-editor-js/server@workspace:packages/@react-editor-js/server"
   dependencies:
     "@editorjs/editorjs": "*"
     "@editorjs/paragraph": "*"
-    "@react-editor-js/core": 1.0.0
+    "@react-editor-js/core": 1.0.1
     "@types/react": "*"
     react: "*"
     tslib: ^2.3.1
@@ -5802,9 +5823,9 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "react-editor-js@workspace:packages/react-editor-js"
   dependencies:
-    "@react-editor-js/client": 1.0.0
-    "@react-editor-js/core": 1.0.0
-    "@react-editor-js/server": 1.0.0
+    "@react-editor-js/client": 1.0.1
+    "@react-editor-js/core": 1.0.1
+    "@react-editor-js/server": 1.0.1
     "@types/node": ^16.11.6
     tslib: ^2.3.1
     typescript: ^4.3.5
@@ -6173,27 +6194,6 @@ __metadata:
   checksum: 20305ac3aea2a62be1728cfd3477419431bad2931532cc136da1904841fa03c318b231027b3a3da077baa0a874c20d72985bf74ed42dad103e88de610eb447a9
   languageName: node
   linkType: hard
-
-"root-workspace-0b6124@workspace:.":
-  version: 0.0.0-use.local
-  resolution: "root-workspace-0b6124@workspace:."
-  dependencies:
-    "@release-it/conventional-changelog": ^3.3.0
-    "@rollup/plugin-node-resolve": ^13.0.6
-    "@types/jest": ^27.0.3
-    conventional-changelog-conventionalcommits: ^4.6.1
-    jest: ^27.4.5
-    prettier: ^2.4.1
-    release-it: ^14.11.6
-    release-it-yarn-workspaces: ^2.0.1
-    rollup: ^2.58.3
-    rollup-plugin-copy: ^3.4.0
-    rollup-plugin-typescript2: ^0.30.0
-    semver: ^7.3.5
-    ts-jest: ^27.1.2
-    typescript: ^4.3.5
-  languageName: unknown
-  linkType: soft
 
 "run-async@npm:^2.4.0":
   version: 2.4.1
